@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NetStandard1.6Package\NetStandard1.6Package.csproj" />
+    <ProjectReference Include="..\NetStandard2.0Package\NetStandard2.0Package.csproj" />
+  </ItemGroup>
+
+</Project>
